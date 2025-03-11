@@ -2,5 +2,8 @@
 
 == Knowledge map
 
+[d2,layout=elk,sketch=true]
+....
 Domain-Driven Design
 Domain-Driven Design -> Model-Driven Design
+....
