@@ -1,9 +1,52 @@
+:toc-title: Domain-Driven Design
+:toc: left
+:toclevels: 5
+
 = Domain-Driven Design
 
-== Knowledge map
+== Why DDD?
 
-[d2,layout=elk,sketch=true]
-....
-Domain-Driven Design
-Domain-Driven Design -> Model-Driven Design
-....
+The critical complexity of software development is understanding the domain.
+
+DDD speeds up the development process.
+
+* Improved communication between developers and domain experts
+* Reduces the risk of misunderstandings
+* Well defined bounded contexts speeds up continuous delivery
+
+
+== Model-Driven Design
+
+There are always multiple ways to model a domain.
+
+Modeling is not about realism.
+
+Be aware of that models are evolving.
+
+How do you know if a model is good or bad? ::
+A model is only good or bad in relation to a problem.
+
+=== Videos
+
+video::lVjxxhA10w0[youtube,width=640,height=360,t=1135]
+[.text-center]
+_(18:55 to 32:53)_
+
+
+== Ubiquitous language
+
+Why is it a problem that developers and domain experts use different terms? ::
+It leads to inefficient communication.
+
+How can we minimize those differences? ::
+Listen. Look for missing concepts.
+
+=== Videos
+
+video::lVjxxhA10w0[youtube,width=640,height=360,start=320]
+[.text-center]
+_(5:20 to 18:50)_
+
+== Strategic Design
+
+A model is an investment which should not be made everywhere.
