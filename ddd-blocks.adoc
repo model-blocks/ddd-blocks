@@ -26,7 +26,6 @@ Be aware that models are evolving.
 How do you know if a model is good or bad? ::
 A model is only good or bad in relation to a problem.
 
-=== Videos
 
 video::lVjxxhA10w0[youtube,width=640,height=360,t=1135]
 [.text-center]
@@ -41,7 +40,6 @@ It leads to inefficient communication.
 How can we minimize those differences? ::
 Listen. Look for missing concepts.
 
-=== Videos
 
 video::lVjxxhA10w0[youtube,width=640,height=360,start=320]
 [.text-center]
@@ -58,13 +56,33 @@ Well defined bounded contexts speeds up continuous delivery
 What is a bounded context? ::
 A boundary within which a particular model is defined and applicable.
 
-=== Context Map
 
-=== Videos
+=== Bounded contexts
 
 video::hNW8bdTw_IU[youtube,width=640,height=360,start=139]
 [.text-center]
 _(2:19 to 12:50)_
+
+
+=== Context Map
+
+video::k5i4sP9q2Lk[youtube,width=640,height=360,start=275]
+[.text-center]
+_(4:35 to 19:00)_
+
+
+==== Anticorruption Layer & Conformist
+
+video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1141]
+[.text-center]
+_(19:01 to 27:45)_
+
+
+==== Shared Kernel & Partnership
+
+video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1850]
+[.text-center]
+_(30:50 to 35:54)_
 
 
 == Tactical Design
