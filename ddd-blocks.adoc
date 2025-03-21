@@ -47,6 +47,7 @@ video::lVjxxhA10w0[youtube,width=640,height=360,start=320]
 [.text-center]
 _(5:20 to 18:50)_
 
+
 == Strategic Design
 
 A model is an investment which should not be made everywhere.
@@ -57,8 +58,13 @@ Well defined bounded contexts speeds up continuous delivery
 What is a bounded context? ::
 A boundary within which a particular model is defined and applicable.
 
+=== Context Map
+
 === Videos
 
 video::hNW8bdTw_IU[youtube,width=640,height=360,start=139]
 [.text-center]
 _(2:19 to 12:50)_
+
+
+== Tactical Design
