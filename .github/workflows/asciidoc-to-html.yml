@@ -1,0 +1,45 @@
+name: Convert AsciiDoc to HTML
+
+on:
+  push:
+    branches: [ master ]  # Using master as the primary branch
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+    
+    - name: Install Asciidoctor
+      run: |
+        gem install asciidoctor
+        gem install asciidoctor-diagram  # Add this if you use diagrams in your AsciiDoc
+    
+    - name: Convert AsciiDoc to HTML
+      run: |
+        # Create output directory
+        mkdir -p public
+        
+        # Convert all AsciiDoc files, preserving directory structure
+        find . -name "*.adoc" -exec sh -c 'mkdir -p public/$(dirname {}) && asciidoctor -D public/$(dirname {}) {}' \;
+        
+        # Copy any assets (images, CSS, etc.) to the public directory
+        [ -d assets ] && cp -r assets public/ || echo "No assets directory found"
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages  # The branch where the HTML will be published
+        force_orphan: true  # Creates a new history for the gh-pages branch
