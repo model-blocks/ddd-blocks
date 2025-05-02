@@ -64,12 +64,13 @@ video::hNW8bdTw_IU[youtube,width=640,height=360,start=139]
 _(2:19 to 12:50)_
 
 
-=== Context Map
+=== Context Mapping
+
+[Cheat sheet](https://github.com/ddd-crew/context-mapping)
 
 video::k5i4sP9q2Lk[youtube,width=640,height=360,start=275]
 [.text-center]
 _(4:35 to 19:00)_
-
 
 ==== Open-host Service, Anticorruption Layer & Conformist
 
@@ -92,10 +93,10 @@ video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1850]
 _(37:22 to 50:29)_
 
 
-==== Sum up?
+==== Not one but many context maps
 
 video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1850]
 [.text-center]
-_(50:30 to 43:57)_
+_(50:30 to 54:30)_
 
 == Tactical Design
