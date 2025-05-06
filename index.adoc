@@ -88,14 +88,14 @@ _(30:50 to 35:54)_
 
 ==== Customer-Supplier, Separate Ways, Published language & Big Ball of Mud
 
-video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1850]
+video::k5i4sP9q2Lk[youtube,width=640,height=360,start=2242]
 [.text-center]
 _(37:22 to 50:29)_
 
 
 ==== Not one but many context maps
 
-video::k5i4sP9q2Lk[youtube,width=640,height=360,start=1850]
+video::k5i4sP9q2Lk[youtube,width=640,height=360,start=3030]
 [.text-center]
 _(50:30 to 54:30)_
 
