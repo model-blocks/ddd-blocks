@@ -8,6 +8,7 @@ The learning trail will include all content but will also add additional content
 - Resources
   - Youtube videos
   - Text resources
+  - Discussion questions
 - Learning objectives
 - Excercises
 
